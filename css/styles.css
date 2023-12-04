@@ -21,6 +21,13 @@
 
 /* Classes */
 
+.header-background-color {
+  width: 1440px;
+  height: 72px;
+  flex-shrink: 0;
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff);
+}
 .logo-first-link {
   font-family: var(--header-font-family);
   color: var(--iris-color);
@@ -31,7 +38,7 @@
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-  list-style-type: none;
+  width: 44px;
 }
 
 .logo-second-link {
@@ -44,7 +51,22 @@
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-  list-style-type: none;
+  width: 71px;
+}
+
+.logo-first-link-light {
+  color: var(--iris-color);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 116.667%;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  display: flex;
+  width: 44px;
+  height: 21px;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .logo-second-link-light {
@@ -55,6 +77,18 @@
   line-height: 116.667%;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  display: flex;
+  width: 71px;
+  height: 21px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-section-background {
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+  background-color: var(--navy-blue-color);
 }
 
 .topline-words-header {
@@ -113,6 +147,8 @@
   line-height: 107.143%;
   letter-spacing: 1.12px;
   text-align: center;
+  width: 496px;
+  text-align: center;
 }
 
 .hero-section-button {
@@ -126,6 +162,10 @@
   line-height: 150%;
   letter-spacing: 0.64px;
   cursor: pointer;
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .hero-section-button:hover,
@@ -140,15 +180,17 @@
   font-weight: 500;
   line-height: 120%;
   letter-spacing: 0.4px;
+  width: 264px;
 }
 
-.section-two-pararaf {
+.section-two-paragraf {
   color: var(--slate-color);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.32px;
+  width: 264px;
 }
 
 .section-three-header {
@@ -159,10 +201,17 @@
   line-height: 111.111%;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .section-four-page {
   background-color: #f4f4fd;
+}
+
+.image-section-three {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .section-four-header {
@@ -205,9 +254,13 @@
 
 .footer-section-down {
   background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
+  flex-shrink: 0;
 }
 
 .filter-buttons-section {
+  font-family: var(--text-font-family);
   border-color: var(--cornflower-color);
   color: var(--iris-color);
   background-color: var(--cloud-color);
@@ -230,8 +283,8 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .image-card-paragraf {
@@ -239,6 +292,6 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
