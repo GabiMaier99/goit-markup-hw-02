@@ -55,11 +55,12 @@
 }
 
 .logo-first-link-light {
+  font-family: var(--header-font-family);
   color: var(--iris-color);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 116.667%;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   display: flex;
@@ -70,11 +71,12 @@
 }
 
 .logo-second-link-light {
+  font-family: var(--header-font-family);
   color: var(--cloud-color);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 116.667%;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   display: flex;
@@ -171,6 +173,7 @@
 .hero-section-button:hover,
 .hero-section-button:focus {
   color: var(--ocean-color);
+  background-color: var(--ocean-color);
 }
 
 .section-two-header {
