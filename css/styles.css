@@ -1,0 +1,221 @@
+:root {
+  --text-font-family: "Roboto", sans-serif;
+  --header-font-family: "Raleway", sans-serif;
+  --iris-color: #4d5ae5;
+  --navy-blue-color: #2e2f42;
+  --white-color: #fff;
+  --slate-color: #434455;
+  --cloud-color: #f4f4fd;
+  --cornflower-color: #e7e9fc;
+  --ocean-color: #404bbf;
+  --shadow-color: rgba(0, 0, 0, 0.15);
+}
+
+/* Global styles */
+
+.body {
+  font-family: var(--text-font-family);
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Classes */
+
+.logo-first-link {
+  font-family: var(--header-font-family);
+  color: var(--iris-color);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 116.667%;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo-second-link {
+  font-family: var(--header-font-family);
+  color: var(--navy-blue-color);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 116.667%;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.topline-words {
+  color: var(--navy-blue-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.topline-words:hover,
+.topline-words:focus {
+  color: var(--iris-color);
+}
+
+.address-mail {
+  color: var(--slate-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.address-mail:hover,
+.address-pmail:focus {
+  color: var(--iris-color);
+}
+
+.address-phone-number {
+  color: var(--slate-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.address-phone-number:hover,
+.address-phone-number:focus {
+  color: var(--iris-color);
+}
+
+.hero-header {
+  color: var(--white-color);
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107.143%;
+  letter-spacing: 1.12px;
+}
+
+.hero-button {
+  color: var(--white-color);
+  background: var(--iris-color);
+  box-shadow: var(--shadow-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.section-two-header {
+  color: var(--navy-blue-color);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.4px;
+}
+
+.section-two-pararaf {
+  color: var(--slate-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+.section-three-header {
+  color: var(--navy-blue-color);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 111.111%;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.section-four-header {
+  color: var(--navy-blue-color);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 111.111%;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.section-four-names {
+  color: var(--navy-blue-color);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.4px;
+}
+
+.section-four-jobs {
+  color: var(--slate-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+.fotter-paragraf {
+  color: var(--cloud-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+.filter-buttons {
+  border-color: var(--cornflower-color);
+  color: var(--iris-color);
+  background-color: var(--cloud-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.filter-buttons:hover,
+.filter-buttons:focus {
+  background-color: var(--ocean-color);
+  color: var(--white-color);
+}
+
+.image-card-header {
+  color: var(--navy-blue-color);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.4px;
+}
+
+.image-card-paragraf {
+  color: var(--slate-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
